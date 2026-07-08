@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.signout-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+    padding: 20px;
+}
+
+
+
+.signout-card {
+    background-color: white;
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 500px;
+    transition: 0.3s;
+}
+
+.signout-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.signout-heading {
+    font-size: 34px;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+
+
+.signout-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+
+.signout-button {
+    padding: 14px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signout-button:hover {
+    background-color: #111;
+    transform: scale(1.05);
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .signout-card {
+        padding: 35px 25px;
+    }
+
+    .signout-heading {
+        font-size: 28px;
+    }
+
+    .signout-text {
+        font-size: 16px;
+    }
+}

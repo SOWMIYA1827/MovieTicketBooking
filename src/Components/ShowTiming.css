@@ -1,0 +1,88 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.show-timing {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+
+.show-timing-heading {
+    text-align: center;
+    font-size: 42px;
+    color: gold;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+
+
+.show-timing-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+
+.show-timing-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 35px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+    transition: 0.4s;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+
+
+.show-timing-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    background: rgba(255, 215, 0, 0.15);
+}
+
+
+
+.show-timing-card h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: gold;
+}
+
+
+
+.show-timing-card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .show-timing-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .show-timing-list {
+        grid-template-columns: 1fr;
+    }
+
+    .show-timing-heading {
+        font-size: 32px;
+    }
+}

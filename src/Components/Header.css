@@ -1,0 +1,77 @@
+/* Header.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #111;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+
+
+.navbar-logo {
+    color: gold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+.navbar-item {
+    list-style: none;
+}
+
+
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.navbar-link:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar-logo {
+        font-size: 24px;
+    }
+}
