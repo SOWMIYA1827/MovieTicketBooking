@@ -25,11 +25,6 @@ Kavitha Theaters is a React-based Movie Ticket Booking website that provides a m
   <img src="./Scrren.png" alt="Project Screenshot" width="90%">
 </p>
 
-
-<p align="center">
-  <img src="./Scrren.png" alt="Movie Ticket Booking" width="100%">
-</p>
-
 <p align="center">
   <b>A Responsive Movie Ticket Booking Website built with React.</b>
 </p>
